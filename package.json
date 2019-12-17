@@ -1,0 +1,22 @@
+{
+  "name": "figma-ios-color-export",
+  "version": "1.0.0",
+  "description": "This plugin template uses Typescript. If you are familiar with Javascript, Typescript will look very familiar. In fact, valid Javascript code is already valid Typescript code.",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuta24/figma-ios-color-export.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuta24/figma-ios-color-export/issues"
+  },
+  "homepage": "https://github.com/yuta24/figma-ios-color-export#readme",
+  "dependencies": {
+    "jszip": "^3.2.2"
+  }
+}
