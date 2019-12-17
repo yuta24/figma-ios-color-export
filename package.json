@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/yuta24/figma-ios-color-export#readme",
   "dependencies": {
+    "file-saver": "^2.0.2",
     "jszip": "^3.2.2"
   },
   "devDependencies": {
