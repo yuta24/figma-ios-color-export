@@ -1,22 +1,17 @@
-This plugin template uses Typescript. If you are familiar with Javascript, Typescript will
-look very familiar. In fact, valid Javascript code is already valid Typescript code.
+# figma-ios-color-export
 
-Typescript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
+Xcodeでインポート可能なカラーアセットを出力するFigmaプラグインです。
 
-For more information, visit https://www.typescriptlang.org/
+*現時点ではまだFigmaプラグインとして未公開です。*
 
-Using Typescript requires a compiler to convert Typescript (code.ts) into Javascript (code.js)
-for the browser to run.
+## インストール
 
-To get the TypeScript compiler working:
+TODO
 
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Install the TypeScript compiler globally: `sudo npm install -g typescript`.
-3. Open this directory in Visual Studio Code.
-4. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "tsc: watch - tsconfig.json". You will have to do this again every time
-    you reopen Visual Studio Code.
+## 使い方
 
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+Figmaでカラーアセットを管理しているファイルを開いてください。そのファイル上でiOSColorExport（このプラグイン）を実行すると、Zipの保存先を指定してZipファイルを保存してください。
+そのZipファイルにXcodeのAssetにインポートできるディレクトリが含まれているので、解凍してXcodeのAssetにドラッグ＆ドロップしてください。
+
+<img src="assets/usage.gif">
+
